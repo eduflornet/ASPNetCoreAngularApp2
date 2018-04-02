@@ -4,8 +4,11 @@ ASP.NET Core2 and Angular5 application example. EntityFramework as ORM (Object-R
 Angular part:
 
 npm install
+
 npm install -g @angular/cli
+
 npm install yarn
+
 npm start
 
 
