@@ -12,7 +12,9 @@ npm install yarn
 npm start
 
 http://localhost:4200/
+
 user: admin
+
 pwd: 123qwe
 
 
