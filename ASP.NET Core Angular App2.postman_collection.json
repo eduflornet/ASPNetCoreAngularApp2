@@ -17,7 +17,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\"userNameOrEmailAddress\": \"admin\",\n\"password\": \"123que\"\n}"
+					"raw": "{\n\"userNameOrEmailAddress\": \"admin\",\n\"password\": \"123qwe\"\n}"
 				},
 				"url": {
 					"raw": "http://localhost:21021/api/TokenAuth/Authenticate",
