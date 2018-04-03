@@ -13,6 +13,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ASPNetCoreAngularApp2.Application\ASPNetCoreAngularApp2.Application.csproj" />
     <ProjectReference Include="..\ASPNetCoreAngularApp2.Core\ASPNetCoreAngularApp2.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
