@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Abp.Application.Services.Dto;
+using Abp.Domain.Entities;
+using ASPNetCoreAngularApp2.Library.Dto;
 
-namespace ASPNetCoreAngularApp2.Library.Dto
+namespace ASPNetCoreAngularApp2.Library.Entities
 {
-    public class AuthorDto:EntityDto<Guid>
+    public class Author:Entity
     {
-        //[Key]
-        //public Guid Id { get; set; }
+        [Key]
+        public Guid Id { get; set; }
 
         [Required]
         [MaxLength(50)]

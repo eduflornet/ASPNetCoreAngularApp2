@@ -1941,3 +1941,423 @@ INFO  2018-04-04 00:00:18,662 [5    ] NetCore.StaticFiles.StaticFileMiddleware -
 INFO  2018-04-04 00:00:18,667 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/explorer_icons.png was not modified
 INFO  2018-04-04 00:00:18,669 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.6476ms 304 image/gif
 INFO  2018-04-04 00:00:18,691 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.2606ms 304 image/png
+DEBUG 2018-04-04 11:50:35,519 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 11:50:35,963 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-04 11:50:36,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.Web.Host.Startup.ASPNetCoreAngularApp2WebHostModule, ASPNetCoreAngularApp2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2WebCoreModule, ASPNetCoreAngularApp2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2ApplicationModule, ASPNetCoreAngularApp2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2CoreModule, ASPNetCoreAngularApp2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.EntityFrameworkCore.ASPNetCoreAngularApp2EntityFrameworkModule, ASPNetCoreAngularApp2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:36,055 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-04 11:50:36,317 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 11:50:36,317 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 11:50:36,317 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 11:50:36,317 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 11:50:37,002 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp2.EntityFrameworkCore.ASPNetCoreAngularApp2DbContext, ASPNetCoreAngularApp2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 11:50:38,743 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-04 11:50:38,856 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 11:50:38,924 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-04 11:50:39,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp2
+DEBUG 2018-04-04 11:50:39,295 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 11:50:39,578 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 11:50:39,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-04 11:50:39,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-04 11:50:39,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Users.Dto.CreateUserDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Users.Dto.UserDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.PermissionDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.RoleDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-04 11:50:39,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.MultiTenancy.Dto.TenantDto
+INFO  2018-04-04 11:50:47,777 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-04 11:50:53,209 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Web.Host.Controllers.HomeController.Index (ASPNetCoreAngularApp2.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:50:53,600 [4    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-04 11:50:53,632 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Web.Host.Controllers.HomeController.Index (ASPNetCoreAngularApp2.Web.Host) in 1500.7076ms
+INFO  2018-04-04 11:50:53,668 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5997.3076ms 302 
+INFO  2018-04-04 11:50:53,711 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-04-04 11:50:53,754 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.6443ms 301 
+INFO  2018-04-04 11:50:53,781 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-04 11:50:53,864 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:53,879 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.3593ms 200 text/html
+INFO  2018-04-04 11:50:54,055 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-04 11:50:54,084 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,110 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.1782ms 200 image/png
+INFO  2018-04-04 11:50:54,191 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-04 11:50:54,258 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-04 11:50:54,263 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-04 11:50:54,267 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-04 11:50:54,291 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-04 11:50:54,294 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-04 11:50:54,540 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,543 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,548 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,555 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 433.0087ms 200 application/javascript
+INFO  2018-04-04 11:50:54,564 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,596 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,599 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,647 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 439.7599ms 200 text/css
+INFO  2018-04-04 11:50:54,649 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 488.1603ms 200 text/css
+INFO  2018-04-04 11:50:54,702 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-04 11:50:54,730 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 452.2288ms 200 application/javascript
+INFO  2018-04-04 11:50:54,732 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-04 11:50:54,740 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-04 11:50:54,786 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,789 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,883 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.551ms 200 application/javascript
+INFO  2018-04-04 11:50:54,930 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-04 11:50:54,952 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:54,956 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 770.6823ms 200 application/javascript
+INFO  2018-04-04 11:50:54,964 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-04 11:50:54,975 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-04 11:50:54,988 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 816.3706ms 200 application/javascript
+INFO  2018-04-04 11:50:54,991 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.844ms 200 text/css
+INFO  2018-04-04 11:50:55,100 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,103 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-04 11:50:55,112 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 193.7905ms 200 application/javascript
+INFO  2018-04-04 11:50:55,135 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,188 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-04 11:50:55,190 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 284.9021ms 200 text/css
+INFO  2018-04-04 11:50:55,199 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-04 11:50:55,205 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,209 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,237 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,239 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-04 11:50:55,296 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 189.6325ms 200 application/javascript
+INFO  2018-04-04 11:50:55,298 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,346 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,417 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-04 11:50:55,441 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 188.521ms 200 application/javascript
+INFO  2018-04-04 11:50:55,511 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.8216ms 200 application/javascript
+INFO  2018-04-04 11:50:55,513 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 577.3643ms 200 application/javascript
+INFO  2018-04-04 11:50:55,613 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 364.0131ms 200 application/javascript
+INFO  2018-04-04 11:50:55,619 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,643 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 87.8134ms 200 application/javascript
+INFO  2018-04-04 11:50:55,651 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 294.5546ms 200 application/javascript
+INFO  2018-04-04 11:50:55,664 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-04 11:50:55,689 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-04-04 11:50:55,714 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.3026ms 200 application/javascript
+INFO  2018-04-04 11:50:56,200 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-04 11:50:56,639 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 458.3874ms 200 application/json
+INFO  2018-04-04 11:50:57,170 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1522835457108  
+INFO  2018-04-04 11:50:57,175 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1522835457107  
+INFO  2018-04-04 11:50:57,252 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp2\aspnet-core\src\ASPNetCoreAngularApp2.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-04 11:50:57,255 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'C:\Users\P068\Documents\GitHub\ASPNetCoreAngularApp2\aspnet-core\src\ASPNetCoreAngularApp2.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-04 11:50:57,310 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.7001ms 200 application/javascript
+INFO  2018-04-04 11:50:57,318 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.7001ms 200 application/javascript
+INFO  2018-04-04 11:55:13,554 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-04 11:55:13,624 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:13,637 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 195.092ms 204 
+INFO  2018-04-04 11:55:13,797 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-04-04 11:55:13,824 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:13,888 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-04-04 11:55:13,996 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:14,005 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:55:15,482 [12   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-04 11:55:15,584 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1601.8885ms
+INFO  2018-04-04 11:55:15,615 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1796.5284ms 200 application/json; charset=utf-8
+INFO  2018-04-04 11:55:15,655 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-04 11:55:15,687 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:15,695 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.2022ms 204 
+INFO  2018-04-04 11:55:15,761 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-04-04 11:55:15,771 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:15,800 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:16,280 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp2.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:55:16,314 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 11:55:16,427 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp2.Application) in 608.7921ms
+INFO  2018-04-04 11:55:16,454 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 693.6098ms 200 application/json; charset=utf-8
+INFO  2018-04-04 11:55:22,099 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-04-04 11:55:22,128 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:22,135 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.1104ms 204 
+INFO  2018-04-04 11:55:22,150 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-04-04 11:55:22,156 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:22,225 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:22,836 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp2.Web.Core) with arguments (ASPNetCoreAngularApp2.Models.TokenAuth.AuthenticateModel) - ModelState is Valid
+INFO  2018-04-04 11:55:25,110 [24   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 11:55:25,119 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Controllers.TokenAuthController.Authenticate (ASPNetCoreAngularApp2.Web.Core) in 2912.9917ms
+INFO  2018-04-04 11:55:25,131 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2983.2509ms 200 application/json; charset=utf-8
+INFO  2018-04-04 11:55:27,301 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-04-04 11:55:27,324 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:27,336 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.184ms 204 
+INFO  2018-04-04 11:55:27,420 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-04-04 11:55:27,445 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:27,486 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:55:27,517 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:55:27,908 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:27,936 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:55:29,261 [4    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-04 11:55:29,271 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 1382.1435ms
+INFO  2018-04-04 11:55:29,278 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1875.8432ms 200 application/json; charset=utf-8
+INFO  2018-04-04 11:55:29,293 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-04-04 11:55:29,318 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:29,325 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.5065ms 204 
+INFO  2018-04-04 11:55:29,445 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-04-04 11:55:29,471 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:29,498 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:55:29,525 [4    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:55:29,555 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:55:29,584 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp2.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:55:29,799 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 11:55:29,829 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Sessions.SessionAppService.GetCurrentLoginInformations (ASPNetCoreAngularApp2.Application) in 272.209ms
+INFO  2018-04-04 11:55:29,855 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 410.9271ms 200 application/json; charset=utf-8
+INFO  2018-04-04 11:56:19,643 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+INFO  2018-04-04 11:56:19,672 [24   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:56:19,731 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:56:19,740 [24   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:56:20,356 [24   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 11:56:20,566 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-04-04 11:56:20,603 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"29aced12-a839-4801-9101-7acfd32fd2ec","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-04-04T11:56:20.5973259+02:00","Properties":{}}
+DEBUG 2018-04-04 11:56:20,662 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 29aced12-a839-4801-9101-7acfd32fd2ec
+INFO  2018-04-04 11:58:44,627 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-04-04 11:58:44,655 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-04-04 11:58:44,658 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:44,690 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:44,695 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.9988ms 204 
+INFO  2018-04-04 11:58:44,732 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.2276ms 204 
+INFO  2018-04-04 11:58:44,761 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-04-04 11:58:44,838 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:44,843 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles application/json 
+INFO  2018-04-04 11:58:44,850 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:44,875 [5    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:58:44,923 [5    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:58:44,931 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:58:44,942 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:58:44,989 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:45,033 [5    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:58:45,393 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Users.UserAppService.GetRoles (ASPNetCoreAngularApp2.Application) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-04 11:59:44,457 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+INFO  2018-04-04 11:59:44,464 [29   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 11:59:44,496 [29   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 11:59:44,522 [29   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 11:59:44,532 [29   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 11:59:44,561 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-04-04 11:59:44,562 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"cf6ddc82-7633-4288-b48a-0e8106b5dbe9","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-04-04T11:59:44.562592+02:00","Properties":{}}
+INFO  2018-04-04 11:59:44,570 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Users.UserAppService.GetAll (ASPNetCoreAngularApp2.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+DEBUG 2018-04-04 11:59:44,684 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 29aced12-a839-4801-9101-7acfd32fd2ec
+INFO  2018-04-04 11:59:56,787 [31   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+WARN  2018-04-04 11:59:56,792 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Heartbeat took longer than "00:00:01" at "04/04/2018 09:59:56 +00:00".
+INFO  2018-04-04 11:59:56,853 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 217167.9119ms 101 
+INFO  2018-04-04 11:59:59,445 [28   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 11:59:59,598 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Users.UserAppService.GetRoles (ASPNetCoreAngularApp2.Application) in 74631.5976ms
+INFO  2018-04-04 11:59:59,675 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74834.9412ms 200 application/json; charset=utf-8
+ERROR 2018-04-04 12:00:02,192 [30   ] Mvc.ExceptionHandling.AbpExceptionFilter - An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. If you are connecting to a SQL Azure database consider using SqlAzureExecutionStrategy. ---> System.Data.SqlClient.SqlException: The client was unable to establish a connection because of an error during connection initialization process before login. Possible causes include the following:  the client tried to connect to an unsupported version of SQL Server; the server was too busy to accept new connections; or there was a resource limitation (insufficient memory or maximum allowed connections) on the server. (provider: TCP Provider, error: 0 - Se ha forzado la interrupción de una conexión existente por el host remoto.) ---> System.ComponentModel.Win32Exception: Se ha forzado la interrupción de una conexión existente por el host remoto
+   --- End of inner exception stack trace ---
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.<FirstOrDefaultAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 118
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 120
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserManager`2.<GetUserByIdAsync>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserManager`2.<IsGrantedAsync>d__34.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserManager`2.<IsGrantedAsync>d__33.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 129
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.PermissionChecker`2.<IsGrantedAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.PermissionChecker`2.<IsGrantedAsync>d__18.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.PermissionCheckerExtensions.<IsGrantedAsync>d__5.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionCheckerExtensions.cs:line 129
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.PermissionCheckerExtensions.<AuthorizeAsync>d__9.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionCheckerExtensions.cs:line 195
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 48
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationInterceptor.Intercept(IInvocation invocation) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationInterceptor.cs:line 20
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetAll(PagedResultRequestDto input)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.ExecuteAsync(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+INFO  2018-04-04 12:00:02,233 [30   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 12:00:02,242 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Users.UserAppService.GetAll (ASPNetCoreAngularApp2.Application) in 77209.1575ms
+INFO  2018-04-04 12:00:02,249 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77533.6831ms 500 application/json; charset=utf-8
+INFO  2018-04-04 12:01:17,139 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/Create  
+INFO  2018-04-04 12:01:17,165 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:01:17,172 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.6197ms 204 
+INFO  2018-04-04 12:01:17,202 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json 160
+INFO  2018-04-04 12:01:17,228 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:01:17,253 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:01:17,259 [6    ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:01:17,338 [6    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:01:17,515 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Users.UserAppService.Create (ASPNetCoreAngularApp2.Application) with arguments (ASPNetCoreAngularApp2.Users.Dto.CreateUserDto) - ModelState is Valid
+DEBUG 2018-04-04 12:02:43,450 [38   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: cf6ddc82-7633-4288-b48a-0e8106b5dbe9
+INFO  2018-04-04 12:02:43,478 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+INFO  2018-04-04 12:02:43,552 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:02:56,796 [38   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+WARN  2018-04-04 12:02:56,855 [37   ] Microsoft.AspNetCore.Server.Kestrel      - Heartbeat took longer than "00:00:01" at "04/04/2018 10:02:56 +00:00".
+INFO  2018-04-04 12:02:56,861 [35   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:02:56,965 [35   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:02:59,898 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 192413.0115ms 101 
+INFO  2018-04-04 12:04:33,240 [35   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 12:04:33,371 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+INFO  2018-04-04 12:04:33,395 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:04:33,422 [6    ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-04-04 12:04:33,454 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109987.0067ms 101 
+INFO  2018-04-04 12:04:33,508 [43   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:04:33,535 [43   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:04:33,543 [43   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 12:04:33,570 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-04-04 12:04:33,571 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"54c19bc9-6b40-421d-b005-c3a6a1d5c4f3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-04-04T12:04:33.5716515+02:00","Properties":{}}
+INFO  2018-04-04 12:05:13,787 [36   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 12:05:13,818 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Users.UserAppService.Create (ASPNetCoreAngularApp2.Application) in 236460.214ms
+INFO  2018-04-04 12:05:13,844 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236643.0261ms 200 application/json; charset=utf-8
+INFO  2018-04-04 12:05:13,871 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10  
+INFO  2018-04-04 12:05:13,896 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:05:13,921 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.3116ms 204 
+INFO  2018-04-04 12:05:13,952 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?SkipCount=0&MaxResultCount=10 application/json 
+INFO  2018-04-04 12:05:13,973 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:05:13,982 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:05:14,006 [36   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:05:14,037 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:05:14,048 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method ASPNetCoreAngularApp2.Users.UserAppService.GetAll (ASPNetCoreAngularApp2.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - ModelState is Valid
+INFO  2018-04-04 12:07:20,780 [52   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+DEBUG 2018-04-04 12:07:20,780 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 54c19bc9-6b40-421d-b005-c3a6a1d5c4f3
+INFO  2018-04-04 12:07:20,830 [52   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:07:20,834 [47   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-04-04 12:07:20,880 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167515.9575ms 101 
+INFO  2018-04-04 12:07:20,925 [52   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:07:20,952 [52   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:07:20,961 [52   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 12:07:21,006 [4    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-04-04 12:07:21,007 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"197167c6-7c7d-4e4b-bfab-5f241836857b","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-04-04T12:07:21.0075678+02:00","Properties":{}}
+INFO  2018-04-04 12:08:02,731 [55   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-04 12:08:02,761 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action ASPNetCoreAngularApp2.Users.UserAppService.GetAll (ASPNetCoreAngularApp2.Application) in 168721.9442ms
+INFO  2018-04-04 12:08:02,788 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 168837.5143ms 200 application/json; charset=utf-8
+DEBUG 2018-04-04 12:08:32,663 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-04 12:08:32,704 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-04 12:08:32,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.Web.Host.Startup.ASPNetCoreAngularApp2WebHostModule, ASPNetCoreAngularApp2.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,743 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2WebCoreModule, ASPNetCoreAngularApp2.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2ApplicationModule, ASPNetCoreAngularApp2.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.ASPNetCoreAngularApp2CoreModule, ASPNetCoreAngularApp2.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ASPNetCoreAngularApp2.EntityFrameworkCore.ASPNetCoreAngularApp2EntityFrameworkModule, ASPNetCoreAngularApp2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:32,751 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-04 12:08:32,832 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 12:08:32,832 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 12:08:32,832 [1    ] o.Configuration.LanguageManagementConfig - Converted ASPNetCoreAngularApp2 (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 12:08:32,832 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-04 12:08:33,206 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: ASPNetCoreAngularApp2.EntityFrameworkCore.ASPNetCoreAngularApp2DbContext, ASPNetCoreAngularApp2.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-04 12:08:33,661 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-04 12:08:33,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-04 12:08:33,757 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-04 12:08:33,790 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: ASPNetCoreAngularApp2
+DEBUG 2018-04-04 12:08:33,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-04 12:08:33,849 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-04 12:08:33,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-04 12:08:33,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-04 12:08:33,893 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Users.Dto.CreateUserDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Users.Dto.UserDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.PermissionDto
+DEBUG 2018-04-04 12:08:33,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.Roles.Dto.RoleDto
+DEBUG 2018-04-04 12:08:33,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-04 12:08:33,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ASPNetCoreAngularApp2.MultiTenancy.Dto.TenantDto
+INFO  2018-04-04 12:08:37,604 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiYhC%2FSSsIYsiEwVlupcWZ34ayfk214EP4QnRasooI3Ok%2FrsKoyrJ2GkdiqQDr1ExlkANttl014JVvwmNm6i%2BgyXd%2FgE%2FyNPpXu6uW5if%2BlpyA0Qcjw5Os0kDtI3hioGZ86YLyuGmOIOO%2Bs4tSHC1JRwjYCnpLptPuXpMqtVqxep3HiYxzqFp858hNNeQJSb6kdgKPmrPoUmVDlYO2lxGouP9KbmnUOlN2I26fjnN%2BWMwoKJWmmqUuMrtTPC7sC%2FBVT9LlRXeSsderGEfx%2BJt8%2BRGpGbpIIfy37qQqxEBR0pyqqxVB8Nuap3wefvihZE5JxfOKxbtBg%2FRHvZviqPBdTJhQ1JALdX5wwwYNT5D4gAOfO8mehIDnNPpxLU763FtWhnoPcY98g4GAqfjmHi6uMYrFAEWux5tvQEFhMepi8wl6jn9WpISar%2BYwsWdFO%2B2nrHI1wZc0NxjQGWzXF4E5ILGHpcpbY8YSKl99Y15wrIfrEhhKfPXSThUhbW4hhMPiJZwThXu2HLs3LUl32SFCOrmY2v1F5hKOjdY6E5bs%2F7Ag%3D%3D  
+INFO  2018-04-04 12:08:37,618 [10   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-04-04 12:08:37,679 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-04-04 12:08:37,686 [10   ] uthentication.JwtBearer.JwtBearerHandler - AuthenticationScheme: JwtBearer was successfully authenticated.
+INFO  2018-04-04 12:08:37,941 [11   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-04-04 12:08:38,002 [15   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-04-04 12:08:38,032 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"29449974-ab64-41bb-b389-4ba07153f1b2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-04-04T12:08:38.0227341+02:00","Properties":{}}

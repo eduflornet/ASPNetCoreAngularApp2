@@ -5,7 +5,7 @@ using Abp.Application.Services.Dto;
 
 namespace ASPNetCoreAngularApp2.Library.Dto
 {
-    public class Book:EntityDto<long>
+    public class BookDto:EntityDto<Guid>
     {
         //[Key]
         //public Guid Id { get; set; }

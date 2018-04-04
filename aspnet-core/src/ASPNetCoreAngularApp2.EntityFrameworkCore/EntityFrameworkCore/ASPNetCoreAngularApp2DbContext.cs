@@ -13,6 +13,7 @@ namespace ASPNetCoreAngularApp2.EntityFrameworkCore
         public ASPNetCoreAngularApp2DbContext(DbContextOptions<ASPNetCoreAngularApp2DbContext> options)
             : base(options)
         {
-        }
+        
     }
+}
 }
