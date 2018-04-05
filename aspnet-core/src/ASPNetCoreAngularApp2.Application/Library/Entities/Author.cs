@@ -8,8 +8,8 @@ namespace ASPNetCoreAngularApp2.Library.Entities
 {
     public class Author:Entity
     {
-        [Key]
-        public Guid Id { get; set; }
+        //[Key]
+        //public Guid Id { get; set; }
 
         [Required]
         [MaxLength(50)]
